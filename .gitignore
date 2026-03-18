@@ -1,8 +1,5 @@
 .idea
 .DS_Store
-vendor
-node_modules
-dist
 
 # Test coverage and reports
 coverage/
