@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
      * Toggles the visual state of the UI between loading and normal.
      * It disables/enables the button and shows/hides the loading spinner.
      *
-     * @param {HTMLElement} butto<n - The button that triggered the action
+     * @param {HTMLElement} button - The button that triggered the action
      * @param {HTMLElement|null} spinner - The loading spinner element (if present)
      * @param {boolean} loading - Whether to enable or disable the loading state
      */
