@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
      * Toggles the visual state of the UI between loading and normal.
      * It disables/enables the button and shows/hides the loading spinner.
      *
-     * @param {HTMLElement} button - The button that triggered the action
+     * @param {HTMLElement} butto<n - The button that triggered the action
      * @param {HTMLElement|null} spinner - The loading spinner element (if present)
      * @param {boolean} loading - Whether to enable or disable the loading state
      */
@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const uploadField = document.querySelector('.attachment-info .setting.alt-text textarea');
 
         // Or in the media details overlay
-        const overlayField = document.getElementById('attachment-details-alt-text');
+        const overlayField = document.getElementById('attachment_alt');
 
         // Use whichever field is available
         const field = uploadField || overlayField;
